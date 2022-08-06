@@ -12,7 +12,7 @@ Application url:
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
 
 
-Creating conda environment
+Creating conda environment using Conda Prompt
 ```
 conda create -p venv python==3.7 -y
 ```
@@ -26,6 +26,16 @@ conda activate venv
 
 ```
 pip install -r requirements.txt
+```
+
+
+VSCode Workspace settings.json file
+```
+{
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "python.PYTHONPATH": "venv\\python.exe",
+    "python.terminal.activateEnvironment": true,
+}
 ```
 
 To Add files to git
